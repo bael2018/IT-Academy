@@ -323,6 +323,7 @@ body{
 .schedule{
     width: 94%;
     margin: 0 auto;
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -330,6 +331,7 @@ body{
 .timetable1 ul{
     position: relative;
 }
+
 .timetable1{
     width: 40%;
 }
@@ -351,11 +353,11 @@ body{
     bottom: -10px;
     width: 70%;
     height: 1px;
-    background: rgb(107, 107, 107);
+    background: rgb(194, 194, 194);
 }
 
 .timetable1 ul li{
-    color: rgb(49, 49, 49);
+    color: rgb(70, 70, 70);
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 10px;
@@ -364,6 +366,10 @@ body{
 .timetable2{
     text-align: center;
     width:60%;
+}
+
+.boll1{
+    color: rgb(56, 56, 56);
 }
 
 .timetable2 textarea{
@@ -392,10 +398,18 @@ body{
     color: green;
 }
 
+.timetable2 p{
+    font-size: 30px;
+    color: rgb(65, 64, 64);
+    z-index: 10;
+    font-weight: 500;
+    margin: 0;
+}
+
 /* footer */
 
 footer{
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .footer_circle{
@@ -531,4 +545,4808 @@ footer{
     color: rgb(185, 185, 185);
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Adaptation */
+
+
+/* Адаптация */
+
+@media screen and (max-width:1192px){
+
+    .block1_inner{
+        position: absolute;
+        top: 15%;
+        left: 3%;
+        width: 55%;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+@media screen and (max-width:1336px){
+
+    .block1_title h1{
+        font-size: 50px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 75%;
+        left: 13%;
+    }
+}
+
+@media screen and (max-width:1128px){
+
+    .course_child{
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .course_left{
+        order: 1;
+        width: 360px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 360px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 360px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 76%;
+        left: 13%;
+    }
+}
+
+
+@media screen and (max-width:1112px){
+    
+    .course_child{
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .course_left{
+        order: 1;
+        width: 350px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 350px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 350px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 76%;
+        left: 13%;
+    }
+}
+
+@media screen and (max-width:1095px){
+
+    .carding{
+        width: 300px !important;
+    }
+
+    .course_java_inside .java_text2{
+        width: 75%;
+        left: 13%;
+    }
+    
+    .course_java_inside1 .java_text3{
+        width: 75%;
+        left: 13%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 75%;
+        left: 13%;
+    }
+
+    .course_java_inside .java_text1{
+        left: 20%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1084px){
+    
+    .course_child{
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .course_left{
+        order: 1;
+        width: 340px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 340px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 340px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 76%;
+        left: 13%;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 79%;
+        left: 11%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 75%;
+        left: 13%;
+    }
+}
+
+@media screen and (max-width:1070px){
+
+    .carding{
+        width: 290px !important;
+    }
+
+    .card_image p{
+        color: rgb(56, 56, 56);
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 30px;
+        margin-top: 5px;
+        width: 45%;
+        text-align: center;
+        position: relative;
+    }
+
+    .course_java_inside .java_text1{
+        left: 18%;
+        width: 62%;
+    }
+}
+
+@media screen and (max-width:1066px){
+
+    .input_name1{
+        width: 100%;
+        padding: 9px 12px;
+        outline: none;
+        border: 1px solid grey;
+        position: relative;
+        border-radius: 5px;
+    }
+
+    .input_name2{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 20px;
+        padding: 9px 12px;
+        border: 1px solid grey;
+        outline: none;
+        position: relative;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width:1056px){
+
+    .course_java_inside3 .java_text7{
+        width: 77%;
+        left: 11%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 75%;
+        left: 13%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 77%;
+        left: 11%;
+    }
+}
+
+@media screen and (max-width:1084px){
+    
+    .course_child{
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .course_left{
+        order: 1;
+        width: 330px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 330px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 330px;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 77%;
+        left: 11%;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 77%;
+        left: 11%;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 79%;
+        left: 11%;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 79%;
+        left: 11%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 75%;
+        left: 13%;
+    }
+
+    .course_java_inside .java_text1{
+        left: 17%;
+        width: 64%;
+    }
+
+    .course_java_inside .java_text2_link{
+        left: 25%;
+    }
+
+    .course_java_inside1 .java_text3_link{
+        left: 25%;
+    }
+
+    .course_java_inside2 .java_text5_link{
+        left: 25%;
+    }
+
+    .course_java_inside3 .java_text7_link{
+        left: 25%;
+    }
+    
+    .course_java_inside4 .java_text9_link{
+        left: 25%;
+    }
+    
+    .course_java_inside5 .java_text11_link{
+        left: 25%;
+    }
+}
+
+@media screen and (max-width:1032px){
+
+    .course_java_inside1 .java_text3{
+        width: 77%;
+        left: 11%;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 79%;
+        left: 10%;
+    }
+
+    .block1_title h1{
+        font-size: 47px;
+    }
+
+    .carding{
+        width: 280px !important;
+    }
+
+    .course_java_inside .java_text1{
+        left: 17%;
+        width: 64%;
+    }
+}
+
+@media screen and (max-width:1084px){
+    
+    .course_child{
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .course_left{
+        order: 1;
+        width: 320px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 320px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 320px;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 79%;
+        left: 10%;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 79%;
+        left: 10%;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 80%;
+        left: 10%;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 81%;
+        left: 10%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 75%;
+        left: 12%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 75%;
+        left: 13%;
+    }
+
+    .course_java_inside .java_text1{
+        left: 17%;
+        width: 66%;
+    }
+
+    .course_java_inside .java_text2_link{
+        left: 25%;
+    }
+
+    .course_java_inside1 .java_text3_link{
+        left: 25%;
+    }
+
+    .course_java_inside2 .java_text5_link{
+        left: 25%;
+    }
+
+    .course_java_inside3 .java_text7_link{
+        left: 25%;
+    }
+    
+    .course_java_inside4 .java_text9_link{
+        left: 25%;
+    }
+    
+    .course_java_inside5 .java_text11_link{
+        left: 25%;
+    }
+}
+
+@media screen and (max-width:1012px){
+
+    .course_java_inside .java_text2{
+        width: 77%;
+        left: 11%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 79%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width:1000px){
+
+    .course_java_inside .java_text1{
+        left: 16%;
+        width: 66%;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 79%;
+        left: 10%;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 80%;
+        left: 10%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 75%;
+        left: 12%;
+    }
+}
+
+@media screen and (max-width:992px){
+
+    .carding{
+        width: 270px !important;
+    }
+
+    .card_image img{
+        width: 45%;
+        height: 80px;
+        border-radius: 5px;
+    }
+
+    .card_image p{
+        color: rgb(56, 56, 56);
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 5px;
+        width: 45%;
+        text-align: center;
+        position: relative;
+    }
+    .course_child{
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .course_left{
+        order: 1;
+        width: 310px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 310px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 310px;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 81%;
+        left: 9%;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 81%;
+        left: 9%;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 82%;
+        left: 9%;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 85%;
+        left: 7%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 75%;
+        left: 12%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 79%;
+        left: 10%;
+    }
+
+    .course_java_inside .java_text1{
+        left: 16%;
+        width: 68%;
+    }
+
+    .course_java_inside .java_text2_link{
+        left: 25%;
+    }
+
+    .course_java_inside1 .java_text3_link{
+        left: 25%;
+    }
+
+    .course_java_inside2 .java_text5_link{
+        left: 25%;
+    }
+
+    .course_java_inside3 .java_text7_link{
+        left: 25%;
+    }
+    
+    .course_java_inside4 .java_text9_link{
+        left: 25%;
+    }
+    
+    .course_java_inside5 .java_text11_link{
+        left: 25%;
+    }
+}
+
+@media screen and (max-width:982px){
+
+    .carding{
+        width: 270px !important;
+    }
+
+    .card_image img{
+        width: 45%;
+        height: 80px;
+        border-radius: 5px;
+    }
+
+    .card_image p{
+        color: rgb(56, 56, 56);
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 5px;
+        width: 45%;
+        text-align: center;
+        position: relative;
+    }
+    .course_child{
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .course_left{
+        order: 1;
+        width: 310px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 310px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 310px;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 81%;
+        left: 9%;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 81%;
+        left: 9%;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 82%;
+        left: 9%;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 85%;
+        left: 7%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 75%;
+        left: 12%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 79%;
+        left: 10%;
+    }
+
+    .course_java_inside .java_text1{
+        left: 16%;
+        width: 68%;
+    }
+
+    .course_java_inside .java_text2_link{
+        left: 25%;
+    }
+
+    .course_java_inside1 .java_text3_link{
+        left: 25%;
+    }
+
+    .course_java_inside2 .java_text5_link{
+        left: 25%;
+    }
+
+    .course_java_inside3 .java_text7_link{
+        left: 25%;
+    }
+    
+    .course_java_inside4 .java_text9_link{
+        left: 25%;
+    }
+    
+    .course_java_inside5 .java_text11_link{
+        left: 25%;
+    }
+}
+
+
+@media screen and (max-width:972px){
+
+    .block1_title h1{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:964px){
+
+    .card_image img{
+        width: 45%;
+        height: 80px;
+        border-radius: 5px;
+    }
+
+    .card_image p{
+        color: rgb(56, 56, 56);
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 5px;
+        width: 45%;
+        text-align: center;
+        position: relative;
+    }
+    .course_child{
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .course_left{
+        order: 1;
+        width: 300px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 300px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 300px;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 83%;
+        left: 8%;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 84%;
+        left: 8%;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 85%;
+        left: 7%;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 87%;
+        left: 6%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 78%;
+        left: 11%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 81%;
+        left: 9%;
+    }
+
+    .course_java_inside .java_text1{
+        left: 16%;
+        width: 70%;
+    }
+
+    .collapse_links{
+        width: 55%;
+    }
+
+    .carding{
+        width: 260px !important;
+    }
+}
+
+@media screen and (max-width:950px){
+
+    .green_boll{
+        font-size: 28px;
+        margin-bottom: 15px;
+        padding-left: 25px;
+        position: relative;
+    }
+
+    .palka{
+        width: 63%;
+        height: 1px;
+        background: white;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:932px){
+
+    .flex{
+        position: absolute;
+        top: 90px;
+        left: 15%;
+    }
+
+    .info{
+        position: absolute;
+        top: 51%;
+        left: 50%;
+    }
+
+    .card_image img{
+        width: 45%;
+        height: 80px;
+        border-radius: 5px;
+    }
+
+    .card_image p{
+        color: rgb(56, 56, 56);
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 5px;
+        width: 45%;
+        text-align: center;
+        position: relative;
+    }
+
+    .course_child{
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .course_left{
+        order: 1;
+        width: 290px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 290px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 290px;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 83%;
+        left: 8%;
+        font-size: 17px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 84%;
+        left: 8%;
+        font-size: 17px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 85%;
+        left: 7%;
+        font-size: 17px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 85%;
+        left: 7%;
+        font-size: 17px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 78%;
+        left: 11%;
+        font-size: 17px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 81%;
+        left: 9%;
+        font-size: 17px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 14%;
+        width: 72%;
+    }
+
+    .collapse_links{
+        width: 55%;
+    }
+
+    .carding{
+        width: 250px !important;
+    }
+
+    .footer_container1{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footer_inner1{
+        width: 35%;
+        margin-right: 130px;
+    }
+    
+    .footer_inner2{
+        width: 35%;
+        margin-right: 0px;
+    }
+    
+    .footer_inner3{
+        width: 35%;
+        margin-right: 130px;
+    }
+    
+    .footer_inner4{
+        width: 48%;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .main_footer{
+        width: 100%;
+        height: 750px;
+        overflow: hidden;
+        background: rgb(20, 20, 20);
+        position: relative;
+    }
+
+    .block1_title h1{
+        font-size: 43px;
+    }
+
+    .contact_inside{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .con_inside_left{
+        order: 2;
+        flex: 1;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .map1{
+        width: 100%;
+        height: 385px;
+        border-radius: 5px;
+        border: none;
+        overflow: hidden;
+    }
+    
+    .con_inside_right{
+        order: 1;
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .input_name2{
+        width: 70%;
+        margin-left: 0%;
+        padding: 9px 12px;
+        border: 1px solid grey;
+        outline: none;
+        position: relative;
+        border-radius: 5px;
+    }
+    
+    .input_name3{
+        width: 70%;
+        padding: 9px 12px;
+        border: 1px solid grey;
+        outline: none;
+        position: relative;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    
+    .con_inside_left form textarea{
+        margin-top: 20px;
+        padding: 10px 12px;
+        outline: none;
+        position: relative;
+        width: 70%;
+        border-radius: 5px;
+    }
+
+    .input_name1{
+        width: 70%;
+        padding: 9px 12px;
+        outline: none;
+        border: 1px solid grey;
+        position: relative;
+        border-radius: 5px;
+    }
+    
+    .send{
+        font-size: 13px;
+        padding: 8px 20px;
+        color: white;
+        font-weight: 500;
+        outline: none;
+        border: none;
+        background: rgb(45, 45, 247);
+        border-radius: 5px;
+        position: absolute;
+        bottom: -50px;
+        right: 410px;
+    }
+
+    .map_title a{
+        color: rgb(61, 61, 61);
+        font-size: 18px;
+        margin-right: 13px;
+    }
+
+    .swiper_image{
+        width: 80%;
+        height: 40%;
+        margin: 0 auto;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .card_image{
+        width: 100%;
+        padding: 20px;
+        padding-bottom: 0;
+        border-bottom: 1px solid rgb(110, 110, 110);
+        display:flex;
+        flex-direction: column;
+    }
+
+    .card_image p{
+        color: rgb(56, 56, 56);
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 58px;
+        margin-top: 5px;
+        width: 45%;
+        text-align: center;
+        position: relative;
+    }
+
+    .card_image img{
+        width: 70%;
+        height: 100px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+
+    .java{
+        height: 270px;
+    }
+}
+
+@media screen and (max-width:902px){
+
+    .swiper_inner1 div img{
+        width: 50%;
+        height: 150px;
+        position: relative;
+    }
+
+    .swiper_inner2 div img{
+        width: 50%;
+        height: 150px;
+        position: relative;
+    }
+
+    .green_boll{
+        font-size: 26px;
+        margin-bottom: 15px;
+        padding-left: 25px;
+        position: relative;
+    }
+
+    .course_left{
+        order: 1;
+        width: 280px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 280px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 280px;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 85%;
+        left: 8%;
+        font-size: 16px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 85%;
+        left: 8%;
+        font-size: 16px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 86%;
+        left: 7%;
+        font-size: 16px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 88%;
+        left: 5%;
+        font-size: 16px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 78%;
+        left: 11%;
+        font-size: 17px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 81%;
+        left: 9%;
+        font-size: 17px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 12%;
+        width: 76%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 47px;
+    }
+
+    .about_container .about_inside{
+        height: 370px
+    }
+
+    .about_right p{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        text-align: right;
+        font-size: 15px;
+    }
+    
+    .about_right h2{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    
+    .about_right a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 10px 20px;
+        padding-bottom: 14px;
+        border: 1px solid black;
+        transition: .3s;
+        position: relative;
+    }
+
+    .circle{
+        width: 800px;
+        height: 800px;
+        border: 3px solid black;
+        background: white;
+        position: absolute;
+        right: 10%;
+        top: -20%;
+    
+        animation: boll 40s ease infinite;
+    }
+    
+    .carding{
+        width: 240px !important;
+    }
+
+    .review{
+        height: 550px;
+    }
+
+    .block1_title h1{
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width:872px){
+    
+    .course_left{
+        order: 1;
+        width: 270px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 270px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 270px;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 85%;
+        left: 8%;
+        font-size: 16px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 85%;
+        left: 8%;
+        font-size: 16px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 86%;
+        left: 7%;
+        font-size: 16px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 87%;
+        left: 6%;
+        font-size: 16px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 17px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 84%;
+        left: 8%;
+        font-size: 17px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 11%;
+        width: 77%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 45px;
+    }
+
+    .about_container .about_inside{
+        height: 370px
+    }
+
+    .about_right p{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        text-align: right;
+        font-size: 15px;
+    }
+    
+    .about_right h2{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    
+    .about_right a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 10px 20px;
+        padding-bottom: 14px;
+        border: 1px solid black;
+        transition: .3s;
+        position: relative;
+    }
+
+    .circle{
+        width: 800px;
+        height: 800px;
+        border: 3px solid black;
+        background: white;
+        position: absolute;
+        right: 10%;
+        top: -20%;
+    
+        animation: boll 40s ease infinite;
+    }
+    
+    .carding{
+        width: 240px !important;
+    }
+
+    .block1_title h1{
+        font-size: 40px;
+    }
+
+    .course_java_inside .java_text2_link{
+        left: 21%;
+    }
+
+    .course_java_inside1 .java_text3_link{
+        left: 21%;
+    }
+
+    .course_java_inside2 .java_text5_link{
+        left: 21%;
+    }
+
+    .course_java_inside3 .java_text7_link{
+        left: 21%;
+    }
+    
+    .course_java_inside4 .java_text9_link{
+        left: 21%;
+    }
+    
+    .course_java_inside5 .java_text11_link{
+        left: 21%;
+    }
+
+    .card_image img{
+        width: 70%;
+        height: 100px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+
+    .swiper{
+        height: 700px;
+    }
+
+    .swiper_image{
+        width: 65%;
+        height: 30%;
+        margin: 0 auto;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .footer_inner1{
+        width: 35%;
+        margin-right: 110px;
+    }
+
+    .footer_inner3{
+        width: 35%;
+        margin-right: 110px;
+    }
+
+    .send{
+        right: 380px;
+    }
+}
+
+@media screen and (max-width:854px){
+
+    .green_boll{
+        font-size: 24px;
+        margin-bottom: 15px;
+        padding-left: 25px;
+        position: relative;
+    }
+
+    .palka{
+        width: 65%;
+        height: 1px;
+        background: white;
+        margin-bottom: 15px;
+    }
+
+    .schedule{
+        width: 94%;
+        margin: 0 auto;
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .timetable1{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        position: relative;
+    }
+
+    .timetable1::before{
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: 100px;
+        height: 100px;
+        border: 1px solid rgb(1, 189, 1);
+
+        animation: circle 10s ease infinite;
+    }
+
+    .timetable1::after{
+        content: "";
+        position: absolute;
+        right: 0px;
+        bottom: 0;
+        width: 100px;
+        height: 100px;
+        border: 1px solid rgb(1, 189, 1);
+
+        animation: circle 10s ease infinite;
+    }
+
+    .timetable2{
+        width: 100%;
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .timetable1 ul{
+        position: relative;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .boll1{
+        font-size: 30px;
+    }
+
+    .boll1::before{
+        display: none;
+    }
+
+    .timetable1 ul::before{
+        display: none;        
+    }
+
+    .timetable1 ul li{
+        color: rgb(70, 70, 70);
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .android_block{
+        width: 90%;
+        height: 90%;
+        background: url('../img/android_bot.jpg') center / cover;
+        margin-left: auto;
+    }
+    
+    .bordering{
+        border-left: 1px solid rgb(24, 180, 24);
+        position: relative;
+        height: 580px;
+    }
+
+    .used_links{
+        display: inline-flex;
+    }
+
+    .used_links div{
+        margin:0 20px;
+    }
+
+    .block1_inner{
+        position: absolute;
+        top: 15%;
+        left: 3%;
+        width: 60%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .block1_inner p{
+        color: white;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .paras{
+        width: 95% !important;
+    }
+
+    .swiper_inner1 div img{
+        width: 50%;
+        height: 130px;
+        position: relative;
+    }
+
+    .swiper_inner2 div img{
+        width: 50%;
+        height: 130px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:842px){
+
+    .about_container .about_inside{
+        height: 340px
+    }
+
+    .about_right p{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        text-align: right;
+        font-size: 14px;
+    }
+    
+    .about_right h2{
+        margin-top: 0px;
+        margin-bottom: 0;
+        font-size: 25px;
+    }
+    
+    .about_right a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 10px 20px;
+        padding-bottom: 14px;
+        border: 1px solid black;
+        transition: .3s;
+        position: relative;
+    }
+
+    .collapse_links{
+        width: 70%;
+    }
+
+    .carding{
+        width: 230px !important;
+    }
+
+    .card_image p{
+        color: rgb(56, 56, 56);
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 40px;
+        margin-top: 5px;
+        width: 60%;
+        text-align: center;
+        position: relative;
+    }
+
+    .send{
+        right: 375px;
+    }
+
+    .course_left{
+        order: 1;
+        width: 260px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 260px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 260px;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 85%;
+        left: 8%;
+        font-size: 15px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 87%;
+        left: 6%;
+        font-size: 15px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 88%;
+        left: 7%;
+        font-size: 15px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 85%;
+        left: 7.5%;
+        font-size: 15px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 15px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 84%;
+        left: 8%;
+        font-size: 15px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 9%;
+        width: 81%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:812px){
+
+    .course_left{
+        order: 1;
+        width: 250px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 250px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 250px;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 85%;
+        left: 8%;
+        font-size: 15px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 87%;
+        left: 6%;
+        font-size: 15px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 88%;
+        left: 7%;
+        font-size: 15px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 87%;
+        left: 7.5%;
+        font-size: 15px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 15px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 84%;
+        left: 8%;
+        font-size: 15px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 8%;
+        width: 84%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 43px;
+    }
+
+    .send{
+        right: 350px;
+    }
+    
+    .block1_title h1{
+        font-size: 38px;
+    }
+
+    .about_inside{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .about_container .about_inside{
+        height: 550px
+    }
+
+    .about_left a img{
+        width: 100%;
+        height: 400px;
+        border-radius: 10px;
+        transition: 3s;
+    }
+
+    .righting{
+        border-right: none;
+    }
+    
+    .righting2{
+        border-left: none;
+    }
+
+    .orderone{
+        order: 2;
+    }
+    
+    .ordertwo{
+        order: 1;
+    }
+
+    .about_right h2{
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .about_right p{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .text_lefting{
+        text-align: center !important;
+    }
+
+    .review_content{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .carding{
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    .review{
+        height: 770px;
+    }
+
+    .flexer{
+        display: flex;
+    }
+
+    .texter{
+        margin-top: 20px;
+        line-height: 1.7;
+    }
+}
+
+@media screen and (max-width:794px){
+
+    .block1_title h1{
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:781px){
+
+    .about_container .about_inside{
+        height: 600px
+    }
+
+    .footer_inner1{
+        width: 35%;
+        margin-right: 90px;
+    }
+
+    .footer_inner3{
+        width: 35%;
+        margin-right: 90px;
+    }
+
+    .course_left{
+        order: 1;
+        width: 240px;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 240px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 240px;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 87%;
+        left: 6%;
+        font-size: 15px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 88%;
+        left: 6%;
+        font-size: 15px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 88%;
+        left: 6%;
+        font-size: 15px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 90%;
+        left: 5%;
+        font-size: 15px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 15px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 84%;
+        left: 8%;
+        font-size: 15px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 6%;
+        width: 87%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 41px;
+    }
+
+    .green_boll{
+        font-size: 22px;
+        margin-bottom: 15px;
+        padding-left: 25px;
+        position: relative;
+    }
+
+    .boll1{
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width:756px){
+
+    .para2{
+        margin-bottom: 20px;
+    }
+
+    .main_block1{
+        width: 100%;
+        height: 280px;
+        background: url('../img/android.jpg') top / cover fixed;
+    }
+
+    .palka{
+        width: 57%;
+        height: 1px;
+        background: white;
+        margin-bottom: 15px;
+    }
+
+    .block1_inner{
+        position: absolute;
+        top: 15%;
+        left: 3%;
+        width: 70%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .block1_inner p{
+        color: white;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    .block1_inner h2{
+        color: white;
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    .android_block{
+        width: 90%;
+        height: 90%;
+        background: url('../img/android_bot.jpg') center / cover;
+        margin-left: auto;
+    }
+    
+    .bordering{
+        border-left: 1px solid rgb(24, 180, 24);
+        position: relative;
+        height: 500px;
+    }
+
+    .paras{
+        margin-bottom: 10px !important;
+    }
+
+    .used_links div{
+        margin: 0;
+        margin-right: 20px !important;
+    }
+}
+
+@media screen and (max-width:752px){
+
+    .swiper_left::before{
+        display: none;
+    }
+
+    .circle{
+        width: 700px;
+        height: 700px;
+        border: 3px solid black;
+        background: white;
+        position: absolute;
+        right: 5%;
+        top: -20%;
+    
+        animation: boll 40s ease infinite;
+    }
+
+    .swiper{
+        height: 740px;
+    }
+
+    .send{
+        right: 320px;
+    }
+
+    .course_left{
+        order: 1;
+        width: 100%;
+    }
+    
+    .course_middle{
+        order: 2;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .course_right{
+        order: 3;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 60%;
+        left: 20%;
+        font-size: 20px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 60%;
+        left: 20%;
+        font-size: 20px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 65%;
+        left: 17%;
+        font-size: 20px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 65%;
+        left: 17%;
+        font-size: 20px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 60%;
+        left: 20%;
+        font-size: 20px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 65%;
+        left: 17%;
+        font-size: 20px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 35%;
+        width: 30%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 50px;
+    }
+
+    .java{
+        height: 250px;
+    }
+
+    .course_java_inside .java_text2_link{
+        left: 39%;
+    }
+
+    .course_java_inside1 .java_text3_link{
+        left: 39%;
+    }
+
+    .course_java_inside2 .java_text5_link{
+        left: 39%;
+    }
+
+    .course_java_inside3 .java_text7_link{
+        left: 39%;
+    }
+    
+    .course_java_inside4 .java_text9_link{
+        left: 39%;
+    }
+    
+    .course_java_inside5 .java_text11_link{
+        left: 39%;
+    }
+
+    .hide_swiper{
+        display: none;
+    }
+
+    .swiper_image{
+        width: 60%;
+        height: 45%;
+        margin: 0 auto;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .swiper{
+        height: 670px;
+    }
+
+    .block1_title{
+        width: 60%;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:722px){
+
+    .card_image p{
+        color: rgb(56, 56, 56);
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 25px;
+        margin-top: 5px;
+        width: 65%;
+        text-align: center;
+        position: relative;
+    }
+
+    .course_java_inside .java_text2{
+        width: 62%;
+        left: 19%;
+        font-size: 20px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 62%;
+        left: 19%;
+        font-size: 20px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 65%;
+        left: 17%;
+        font-size: 20px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 65%;
+        left: 17%;
+        font-size: 20px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 62%;
+        left: 19%;
+        font-size: 20px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 67%;
+        left: 16%;
+        font-size: 20px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 35%;
+        width: 31%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 50px;
+    }
+
+    .green_boll{
+        font-size: 20px;
+        margin-bottom: 15px;
+        padding-left: 25px;
+        position: relative;
+    }
+
+    .boll1{
+        font-size: 33px;
+    }
+
+    .swiper_inner1 div img{
+        width: 60%;
+        height: 120px;
+        position: relative;
+    }
+
+    .swiper_inner2 div img{
+        width: 60%;
+        height: 120px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:700px){
+
+    .content h1 a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.842);
+        font-size: 39px;
+        font-weight: 100;
+        margin-left: 20px;
+        transition: 0.4s;
+    }
+
+    .info{
+        position: absolute;
+        top: 33%;
+        left: 65%;
+    }
+
+    .info h4{
+        display: none;
+    }
+
+    .info div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info div a i{
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    .send{
+        right: 300px;
+    }
+
+    .card_image{
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 0;
+        border-bottom: 1px solid rgb(110, 110, 110);
+        display:flex;
+        flex-direction: column;
+    }
+
+    .card_image img{
+        width: 80%;
+        height: 100px;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .card_image p{
+        color: rgb(56, 56, 56);
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 17px;
+        margin-top: 5px;
+        width: 65%;
+        text-align: center;
+        position: relative;
+    }
+
+    .texter{
+        margin-top: 5px;
+        line-height: 1.7;
+    }
+
+    .course_java_inside .java_text2{
+        width: 64%;
+        left: 18%;
+        font-size: 20px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 65%;
+        left: 18%;
+        font-size: 20px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 67%;
+        left: 16%;
+        font-size: 20px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 65%;
+        left: 17%;
+        font-size: 20px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 64%;
+        left: 18%;
+        font-size: 20px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 69%;
+        left: 15%;
+        font-size: 20px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 34%;
+        width: 32%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 50px;
+    }
+
+    .course_java_inside .java_text2_link{
+        left: 38%;
+    }
+
+    .course_java_inside1 .java_text3_link{
+        left: 38%;
+    }
+
+    .course_java_inside2 .java_text5_link{
+        left: 38%;
+    }
+
+    .course_java_inside3 .java_text7_link{
+        left: 38%;
+    }
+    
+    .course_java_inside4 .java_text9_link{
+        left: 38%;
+    }
+    
+    .course_java_inside5 .java_text11_link{
+        left: 38%;
+    }
+
+    .info div a i:hover{
+        transform: translate(-10px, 0px);
+        transition: .4s;
+    }
+}
+
+@media screen and (max-width:680px){
+    
+    .course_java_inside .java_text2{
+        width: 66%;
+        left: 17%;
+        font-size: 20px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 66%;
+        left: 17%;
+        font-size: 20px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 70%;
+        left: 15%;
+        font-size: 20px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 67%;
+        left: 16%;
+        font-size: 20px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 65%;
+        left: 17%;
+        font-size: 20px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 71%;
+        left: 14%;
+        font-size: 20px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 33%;
+        width: 33%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 50px;
+    }
+
+    .send{
+        right: 280px;
+    }
+
+    .about_container .about_inside{
+        height: 650px;
+    }
+
+    .collapse_links{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:670px){
+
+    .green_boll{
+        font-size: 18px;
+        margin-bottom: 15px;
+        padding-left: 25px;
+        position: relative;
+    }
+
+    .boll1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:660px){
+    
+    .course_java_inside .java_text2{
+        width: 68%;
+        left: 16%;
+        font-size: 20px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 69%;
+        left: 16%;
+        font-size: 20px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 72%;
+        left: 14%;
+        font-size: 20px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 69%;
+        left: 15%;
+        font-size: 20px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 67%;
+        left: 16%;
+        font-size: 20px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 73%;
+        left: 14%;
+        font-size: 20px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 33%;
+        width: 34%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 50px;
+    }
+
+    .send{
+        right: 280px;
+    }
+
+    .about_container .about_inside{
+        height: 650px;
+    }
+
+    .collapse_links{
+        width: 80%;
+    }
+
+    .main_footer{
+        height: 775px;
+    }
+    
+    .swiper{
+        height: 700px;
+    }
+
+    .card_image p{
+        color: rgb(56, 56, 56);
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 17px;
+        margin-top: 5px;
+        width: 70%;
+        text-align: center;
+        position: relative;
+    }
+
+    .map_title a{
+        color: rgb(61, 61, 61);
+        font-size: 17px;
+        margin-right: 13px;
+    }
+}
+
+@media screen and (max-width:650px){
+
+    .paras{
+        margin-bottom: 20px !important;
+        font-size: 14px !important;
+    }
+
+    .android_block{
+        width: 100%;
+        height: 100%;
+        background: url('../img/android_bot.jpg') center / cover;
+        margin-left: auto;
+    }
+    
+    .bordering{
+        border-left: 1px solid rgb(24, 180, 24);
+        position: relative;
+        height: 340px;
+    }
+
+    .bot_one{
+        margin-bottom: 30px;
+    }
+
+    .bot_two{
+        width: 600px;
+    }
+
+    .timetable1::before{
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: 80px;
+        height: 80px;
+        border: 1px solid rgb(1, 189, 1);
+
+        animation: circle 10s ease infinite;
+    }
+
+    .timetable1::after{
+        content: "";
+        position: absolute;
+        right: 0px;
+        bottom: 0;
+        width: 80px;
+        height: 80px;
+        border: 1px solid rgb(1, 189, 1);
+
+        animation: circle 10s ease infinite;
+    }
+}
+
+@media screen and (max-width:640px){
+
+    .main_title{
+        width: 40%;
+        margin: 30px auto;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    .course_java_inside .java_text2{
+        width: 70%;
+        left: 15%;
+        font-size: 20px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 71%;
+        left: 15%;
+        font-size: 20px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 75%;
+        left: 13%;
+        font-size: 20px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 72%;
+        left: 14%;
+        font-size: 20px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 70%;
+        left: 15%;
+        font-size: 20px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 76%;
+        left: 12%;
+        font-size: 20px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 33%;
+        width: 35%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 50px;
+    }
+
+    .about_right p{
+        margin-bottom: 30px;
+    }
+
+    .about_container .about_inside{
+        height: 670px;
+    }
+    
+    .card_image img{
+        width: 100%;
+    }
+
+    .card_image p{
+        color: rgb(56, 56, 56);
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 25px;
+    }
+
+    .footer_container1{
+        margin-top: 40px;
+    }
+
+    .main_footer{
+        height: 720px;
+    }
+
+    .footer_inner1{
+        width: 37%;
+        margin-right: 70px;
+    }
+
+    .footer_inner3{
+        width: 37%;
+        margin-right: 70px;
+    }
+    
+    .send{
+        right: 250px;
+    }
+}
+
+@media screen and (max-width:634px){
+
+    .green_boll{
+        font-size: 20px;
+    }
+
+    .boll1{
+        font-size: 30px;
+    }
+
+    .block1_inner h2{
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .swiper_inner1 div h3{
+        color: rgb(59, 59, 59);
+        font-size: 20px;
+    }
+    
+    .swiper_inner1 div hr{
+        width: 40%;
+        margin: 20px auto;
+    }
+    
+    .swiper_inner1 div p{
+        font-weight: 400;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    .swiper_inner2 div hr{
+        width: 40%;
+        margin: 20px auto;
+    }
+
+    .swiper_inner2 div h3{
+        color: rgb(59, 59, 59);
+        font-size: 20px;
+    }
+    
+    .swiper_inner2 div p{
+        font-weight: 400;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    .bot_two{
+        width: 570px;
+    }
+}
+
+@media screen and (max-width:620px){
+
+    .block1_title{
+        font-family: 'Raleway', sans-serif;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .circle{
+        width: 600px;
+        height: 650px;
+        right: 7%;
+    }
+
+    .course_java_inside .java_text2{
+        width: 72%;
+        left: 14%;
+        font-size: 20px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 73%;
+        left: 14%;
+        font-size: 20px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 77%;
+        left: 12%;
+        font-size: 20px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 75%;
+        left: 12%;
+        font-size: 20px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 72%;
+        left: 14%;
+        font-size: 20px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 78%;
+        left: 11%;
+        font-size: 20px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 33%;
+        width: 36%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 50px;
+    }
+
+    .card_image p{
+        margin-left: 12px;
+        width: 80%;
+    }
+
+    .map_title a{
+        color: rgb(61, 61, 61);
+        font-size: 16px;
+        margin-right: 13px;
+    }
+
+    .footer_inner1{
+        width: 40%;
+        margin-right: 50px;
+    }
+
+    .footer_inner3{
+        width: 40%;
+        margin-right: 50px;
+    }
+
+    .review{
+        height: 710px;
+    }
+
+    .about_container .about_inside{
+        height: 710px;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .timetable1 ul li{
+        color: rgb(70, 70, 70);
+        font-weight: 500;
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .bot_two{
+        width: 540px;
+    }
+
+    .java{
+        height: 250px;
+    }
+
+    .course_java_inside .java_text2{
+        width: 75%;
+        left: 12%;
+        font-size: 20px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 76%;
+        left: 12%;
+        font-size: 20px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 79%;
+        left: 11%;
+        font-size: 20px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 77%;
+        left: 11%;
+        font-size: 20px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 74%;
+        left: 13%;
+        font-size: 20px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 81%;
+        left: 10%;
+        font-size: 20px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 32%;
+        width: 37%;
+    }
+
+    .about_left{
+        height: 310px;
+    }
+
+    .about_left a img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        transition: 3s;
+    }
+
+    .collapse_links{
+        width: 90%;
+    }
+
+    .card_image p{
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .map_title a{
+        color: rgb(61, 61, 61);
+        font-size: 16px;
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width:580px){
+
+    .swiper_inner1 div h3{
+        color: rgb(59, 59, 59);
+        font-size: 18px;
+    }
+    
+    .swiper_inner1 div hr{
+        width: 40%;
+        margin: 20px auto;
+    }
+    
+    .swiper_inner1 div p{
+        font-weight: 400;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .swiper_inner2 div hr{
+        width: 40%;
+        margin: 20px auto;
+    }
+
+    .swiper_inner2 div h3{
+        color: rgb(59, 59, 59);
+        font-size: 18px;
+    }
+    
+    .swiper_inner2 div p{
+        font-weight: 400;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .bot_two{
+        width: 480px;
+    }
+
+    .block1_inner{
+        position: absolute;
+        top: 15%;
+        left: 3%;
+        width: 80%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .block1_inner p{
+        color: white;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .course_java_inside .java_text2{
+        width: 77%;
+        left: 11%;
+        font-size: 20px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 79%;
+        left: 11%;
+        font-size: 20px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 82%;
+        left: 9%;
+        font-size: 20px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 79%;
+        left: 10%;
+        font-size: 20px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 77%;
+        left: 12%;
+        font-size: 20px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 84%;
+        left: 8%;
+        font-size: 20px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 31%;
+        width: 38%;
+    }
+
+    .map_title a{
+        color: rgb(61, 61, 61);
+        font-size: 15px;
+        margin-right: 8px;
+    }
+
+    .map1{
+        width: 100%;
+        height: 320px;
+        border-radius: 5px;
+        border: none;
+        overflow: hidden;
+    }
+
+    .map{
+        overflow: hidden;
+        padding: 0px;
+        height: 350px;
+    }
+
+    .circle{
+        width: 600px;
+        height: 600px;
+        right: 7%;
+    }
+}
+
+@media screen and (max-width:560px){
+
+    .timetable1 ul li{
+        color: rgb(70, 70, 70);
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .timetable1::before{
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: 70px;
+        height: 70px;
+        border: 1px solid rgb(1, 189, 1);
+
+        animation: circle 10s ease infinite;
+    }
+
+    .timetable1::after{
+        content: "";
+        position: absolute;
+        right: 0px;
+        bottom: 0;
+        width: 70px;
+        height: 70px;
+        border: 1px solid rgb(1, 189, 1);
+
+        animation: circle 10s ease infinite;
+    }
+
+    .map_title{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .map_title a{
+        color: rgb(61, 61, 61);
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+    .swiper_left{
+        padding-right: 0px;
+    }
+
+    .swiper_left p{
+        font-weight: 300;
+        color: rgb(65, 65, 65);
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 14px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .swiper_right p{
+        font-weight: 300;
+        color: rgb(65, 65, 65);
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 14px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .swiper_right{
+        padding-right: 0px;
+    }
+
+    .review_content{
+        width: 90%;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .send{
+        right: 230px;
+    }
+
+    .course_java_inside .java_text2{
+        width: 80%;
+        left: 10%;
+        font-size: 20px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 81%;
+        left: 10%;
+        font-size: 20px;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 85%;
+        left: 7.5%;
+        font-size: 20px;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 82%;
+        left: 9%;
+        font-size: 20px;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 20px;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 87%;
+        left: 7%;
+        font-size: 20px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 30%;
+        width: 40%;
+    }
+
+    .course_java_inside .java_text2_link{
+        left: 34%;
+    }
+
+    .course_java_inside1 .java_text3_link{
+        left: 34%;
+    }
+
+    .course_java_inside2 .java_text5_link{
+        left: 34%;
+    }
+
+    .course_java_inside3 .java_text7_link{
+        left: 34%;
+    }
+    
+    .course_java_inside4 .java_text9_link{
+        left: 34%;
+    }
+    
+    .course_java_inside5 .java_text11_link{
+        left: 34%;
+    }
+
+    .about_left{
+        height: 280px !important;
+    }
+
+    .about_left a img{
+        width: 100%;
+        height: 290px;
+        border-radius: 10px;
+        transition: 3s;
+    }
+
+    .about_right{
+        flex: 1;
+        text-align: center;
+        position: absolute;
+        top: 280px;
+    }
+    
+    .about_container .about_inside{
+        height: 640px;
+    }
+
+    .flexer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_image img{
+        width: 60%;
+        height: 160px;
+    }
+
+    .review{
+        height:1050px;
+    }
+
+    .card_image{
+        flex-direction: row;
+    }
+
+    .card_image p{
+        margin-left: 50px;
+        padding-top: 30px;
+        width: 20%;
+    }
+
+    .about_right p{
+        margin-bottom: 30px;
+    }
+
+    .about_container .about_inside{
+        height: 670px;
+    }
+
+    .texter{
+        margin-top: 5px;
+        line-height: 1.7;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:540px){
+
+    .block1_title h1{
+        font-size: 35px;
+    }
+
+    .send{
+        right: 220px;
+    }
+
+    .main_footer{
+        height: 1310px;
+    }
+
+    .footer_inner1{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .footer_inner2{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    .footer_inner3{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 80%;
+    }
+    
+    .footer_inner4{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .footer_container1 div ul li a{
+        color: white;
+        font-size: 18px;
+    }
+    
+    .footer_inner4_para2{
+        font-size: 16px;
+    }
+
+    .course_java_inside .java_text2{
+        width: 80%;
+        top: 13%;
+        left: 10%;
+        font-size: 20px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 81%;
+        left: 10%;
+        font-size: 20px;
+        top: 13%;
+    }
+    
+    .course_java_inside2 .java_text5{
+        width: 85%;
+        left: 7.5%;
+        font-size: 20px;
+        top: 13%;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 82%;
+        left: 9%;
+        font-size: 20px;
+        top: 13%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 20px;
+        top: 13%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 87%;
+        left: 7%;
+        font-size: 20px;
+        top: 13%;
+    }
+
+    .course_java_inside .java_text1{
+        left: 29%;
+        width: 41%;
+        top: 30%;
+    }
+
+    .footer_container2 p{
+        font-size: 15px;
+    }
+    
+    .footer_container2 p a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:530px){
+
+    .paras2{
+        width: 100% !important;
+        font-size: 13px !important;
+    }
+
+    .bot_two{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:520px){
+
+    .block1_title h1{
+        font-size: 34px;
+    }
+
+    .circle{
+        width: 580px;
+        height: 580px;
+        right: 5%;
+        top: 0%;
+    }
+
+    .collapse_links{
+        width: 100%;
+    }
+
+    .about_right p{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .about_container .about_inside{
+        height: 640px;
+    }
+
+    .swiper_image{
+        width: 65%;
+        height: 40%;
+        margin: 0 auto;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .swiper{
+        height: 650px;
+    }
+
+    .review{
+        height:1100px;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    .timetable1::before{
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: 60px;
+        height: 60px;
+        border: 1px solid rgb(1, 189, 1);
+
+        animation: circle 10s ease infinite;
+    }
+
+    .timetable1::after{
+        content: "";
+        position: absolute;
+        right: -10px;
+        bottom: 0;
+        width: 60px;
+        height: 60px;
+        border: 1px solid rgb(1, 189, 1);
+
+        animation: circle 10s ease infinite;
+    }
+
+    .timetable2 textarea{
+        margin-bottom: 20px;
+    }
+
+    .block1_inner p{
+        color: white;
+        font-weight: 300;
+        font-size: 13px;
+    }
+    
+    .swiper_inner1 div img{
+        width: 60%;
+        height: 100px;
+        position: relative;
+    }
+
+    .swiper_inner2 div img{
+        width: 60%;
+        height: 100px;
+        position: relative;
+    }
+
+    .send{
+        right: 200px;
+    }
+
+    .footer_container2 p{
+        font-size: 14px;
+    }
+    
+    .footer_container2 p a{
+        font-size: 15px;
+    }
+
+    .card_image p{
+        margin-left: 40px;
+        padding-top: 30px;
+        width: 22%;
+    }
+
+    .block1_title h1{
+        font-size: 32px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 28%;
+        width: 46%;
+        top: 30%;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .block1_inner{
+        position: absolute;
+        top: 15%;
+        left: 3%;
+        width: 75%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .block1_inner p{
+        color: white;
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+    .block1_inner h2{
+        color: white;
+        font-weight: 700;
+        font-size: 27px;
+    }
+
+    .send{
+        right: 183px;
+    }
+
+    .footer_container2 p{
+        font-size: 14px;
+    }
+    
+    .footer_container2 p a{
+        font-size: 15px;
+    }
+
+    .card_image p{
+        margin-left: 40px;
+        padding-top: 30px;
+        width: 22%;
+    }
+
+    .block1_title h1{
+        font-size: 31px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 27%;
+        width: 47%;
+        top: 30%;
+    }
+
+    .swiper{
+        height: 680px;
+    }
+
+    .info{
+        position: absolute;
+        left: 70%;
+    }
+
+    .collapse_links a{
+        text-decoration: none;
+        color: rgb(32, 32, 32);
+        margin-right: 15px;
+        font-size: 21px;
+        position: relative;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:460px){
+
+    .paras2{
+        width: 100% !important;
+        font-size: 12px !important;
+    }
+
+    .green_boll{
+        font-size: 18px;
+    }
+
+    .boll1{
+        font-size: 30px;
+    }
+
+    .android_block{
+        width: 100%;
+        height: 80%;
+        background: url('../img/android_bot.jpg') center / cover;
+        margin-left: auto;
+    }
+    
+    .bordering{
+        border-left: 1px solid rgb(24, 180, 24);
+        position: relative;
+        height: 320px;
+    }
+
+    .swiper_inner1 div h3{
+        color: rgb(59, 59, 59);
+        font-size: 16px;
+    }
+    
+    .swiper_inner1 div hr{
+        width: 40%;
+        margin: 20px auto;
+    }
+    
+    .swiper_inner1 div p{
+        font-weight: 400;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .swiper_inner2 div hr{
+        width: 40%;
+        margin: 20px auto;
+    }
+
+    .swiper_inner2 div h3{
+        color: rgb(59, 59, 59);
+        font-size: 16px;
+    }
+    
+    .swiper_inner2 div p{
+        font-weight: 400;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .send{
+        right: 175px;
+    }
+
+    .footer_container2{
+        text-align: center;
+    }
+
+    .footer_container2 p{
+        font-size: 14px;
+    }
+    
+    .footer_container2 p a{
+        font-size: 14px;
+    }
+
+    .card_image p{
+        margin-left: 20px;
+        padding-top: 30px;
+        width: 30%;
+    }
+
+    .block1_title h1{
+        font-size: 30px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 27%;
+        width: 47%;
+        top: 30%;
+    }
+
+    .swiper{
+        height: 680px;
+    }
+
+    .info{
+        position: absolute;
+        left: 70%;
+    }
+
+    .collapse_links a{
+        margin-right: 15px;
+        font-size: 20px;
+    }
+
+    .block1_title p{
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 25%;
+        width: 50%;
+        top: 30%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 87%;
+        left: 6.5%;
+        font-size: 20px;
+        top: 13%;
+    }
+
+    .main_footer{
+        height: 1340px;
+    }
+}
+
+@media screen and (max-width:440px){
+    
+    .collapse_links a{
+        margin-right: 15px;
+        font-size: 19px;
+    }
+
+    .about_container .about_inside{
+        height: 670px;
+    }
+
+    .block1_title h1{
+        font-size: 28px;
+    }
+
+    .block1_title p{
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 24.5%;
+        width: 51%;
+        top: 30%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 88%;
+        left: 6%;
+        font-size: 19px;
+        top: 13%;
+    }
+
+    .course_java_inside .java_text2{
+        width: 80%;
+        top: 13%;
+        left: 10%;
+        font-size: 19px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 81%;
+        left: 10%;
+        font-size: 19px;
+        top: 13%;
+    }
+    
+    .course_java_inside3 .java_text7{
+        width: 82%;
+        left: 9%;
+        font-size: 19px;
+        top: 13%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 19px;
+        top: 13%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 87%;
+        left: 7%;
+        font-size: 19px;
+        top: 13%;
+    }
+
+    .send{
+        right: 160px;
+    }
+
+    .main_footer{
+        height: 1350px;
+    }
+}
+
+@media screen and (max-width:434px){
+
+    .circ1{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .circ2{
+        width: 80px;
+        height: 80px;
+    }
+
+    .android_left .applying{
+        color: white;
+        padding: 10px 20px;
+        background: rgb(28, 216, 28);
+        border-radius: 5px;
+        font-size: 13px;
+        font-weight: 500;
+        transition: .3s;
+    }
+
+    .swiper_inner1 div img{
+        width: 70%;
+        height: 90px;
+        position: relative;
+    }
+
+    .swiper_inner2 div img{
+        width: 70%;
+        height: 90px;
+        position: relative;
+    }
+
+    .timetable1::before{
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: 50px;
+        height: 50px;
+        border: 1px solid rgb(1, 189, 1);
+
+        animation: circle 10s ease infinite;
+    }
+
+    .timetable1::after{
+        content: "";
+        position: absolute;
+        right: -10px;
+        bottom: 0;
+        width: 50px;
+        height: 50px;
+        border: 1px solid rgb(1, 189, 1);
+
+        animation: circle 10s ease infinite;
+    }
+
+    .bot_two{
+        width: 370px;
+    }
+
+    .bot_two .paras{
+        width: 100% !important;
+    }
+}
+
+
+@media screen and (max-width:432px){
+
+    .course_java_inside .java_text1{
+        left: 24%;
+        width: 52%;
+        top: 30%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 89%;
+        left: 5.5%;
+        font-size: 19px;
+        top: 13%;
+    }
+
+    .swiper{
+        height: 720px;
+    }
+}
+
+@media screen and (max-width:428px){
+
+    .swiper_inner1 div h3{
+        color: rgb(59, 59, 59);
+        font-size: 14px;
+    }
+    
+    .swiper_inner1 div hr{
+        width: 40%;
+        margin: 20px auto;
+    }
+    
+    .swiper_inner1 div p{
+        font-weight: 400;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 11px;
+    }
+
+    .swiper_inner2 div hr{
+        width: 40%;
+        margin: 20px auto;
+    }
+
+    .swiper_inner2 div h3{
+        color: rgb(59, 59, 59);
+        font-size: 14px;
+    }
+    
+    .swiper_inner2 div p{
+        font-weight: 400;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 11px;
+    }
+
+    .block1_inner h2{
+        color: white;
+        font-weight: 700;
+        font-size: 23px;
+    }
+
+    .main_block1{
+        width: 100%;
+        height: 250px;
+        background: url('../img/android.jpg') top / cover fixed;
+    }
+
+    .green_boll{
+        font-size: 16px;
+    }
+
+    .boll1{
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width:420px){
+
+    .block1_title h1{
+        font-size: 27px;
+    }
+
+    .content h1 a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.842);
+        font-size: 35px;
+        font-weight: 100;
+        margin-left: 20px;
+        transition: 0.4s;
+    }
+    
+    .block1_title h1{
+        font-size: 27px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 23%;
+        width: 54%;
+        top: 30%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 89%;
+        left: 5.5%;
+        font-size: 18px;
+        top: 13%;
+    }
+
+    .course_java_inside .java_text2{
+        width: 80%;
+        top: 13%;
+        left: 10%;
+        font-size: 18px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 81%;
+        left: 10%;
+        font-size: 18px;
+        top: 13%;
+    }
+    
+    .course_java_inside3 .java_text7{
+        width: 82%;
+        left: 9%;
+        font-size: 18px;
+        top: 13%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 18px;
+        top: 13%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 87%;
+        left: 7%;
+        font-size: 18px;
+        top: 13%;
+    }
+
+    .collapse_links a{
+        margin-right: 15px;
+        font-size: 18px;
+    }
+
+    .swiper_image{
+        width: 75%;
+        height: 40%;
+    }
+    
+    .review{
+        height:1200px;
+    }
+
+    .map_title a{
+        color: rgb(61, 61, 61);
+        font-size: 19px;
+        margin-right: 5px;
+    }
+
+    .main_footer::before{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width:408px){
+
+    .block1_title h1{
+        font-size: 26px;
+    }
+
+    .course_java_inside .java_text2_link{
+        left: 30%;
+    }
+
+    .course_java_inside1 .java_text3_link{
+        left: 30%;
+    }
+
+    .course_java_inside2 .java_text5_link{
+        left: 30%;
+    }
+
+    .course_java_inside3 .java_text7_link{
+        left: 30%;
+    }
+    
+    .course_java_inside4 .java_text9_link{
+        left: 30%;
+    }
+    
+    .course_java_inside5 .java_text11_link{
+        left: 30%;
+    }
+
+    .course_java_inside .java_text1{
+        left: 22%;
+        width: 56%;
+        top: 30%;
+    }
+
+    .collapse_links a{
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .about_left a img{
+        width: 100%;
+        height: 260px;
+        border-radius: 10px;
+        transition: 3s;
+    }
+    
+    .about_left{
+        height: 250px !important;
+    }
+    
+    .about_right{
+        top: 250px;
+    }
+
+    .about_container .about_inside{
+        height: 660px;
+    }
+
+    .main_title{
+        width: 60%;
+        margin: 30px auto;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .map_title a{
+        color: rgb(61, 61, 61);
+        font-size: 18px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    .bot_two{
+        width: 340px;
+    }
+
+    .schedule{
+        padding-top: 0;
+    }
+
+    .timetable1::before{
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: 40px;
+        height: 40px;
+        border: 1px solid rgb(1, 189, 1);
+
+        animation: circle 10s ease infinite;
+    }
+
+    .timetable1::after{
+        content: "";
+        position: absolute;
+        right: -10px;
+        bottom: 0;
+        width: 40px;
+        height: 40px;
+        border: 1px solid rgb(1, 189, 1);
+
+        animation: circle 10s ease infinite;
+    }
+    
+    .block1_title h1{
+        font-size: 25px;
+    }
+    
+    .swiper{
+        height: 750px;
+    }
+
+    .send{
+        right: 150px;
+    }
+
+    .main_footer{
+        height: 1350px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 21.5%;
+        width: 57%;
+        top: 30%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 86%;
+        left:7%;
+        font-size: 17px;
+        top: 13%;
+    }
+
+    .course_java_inside .java_text2{
+        width: 80%;
+        top: 13%;
+        left: 10%;
+        font-size: 17px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 81%;
+        left: 10%;
+        font-size: 17px;
+        top: 13%;
+    }
+    
+    .course_java_inside3 .java_text7{
+        width: 82%;
+        left: 9%;
+        font-size: 17px;
+        top: 13%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 17px;
+        top: 13%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 87%;
+        left: 6%;
+        font-size: 17px;
+        top: 13%;
+    }
+
+    .java{
+        height: 220px;
+    }
+
+    .footer_container1 div ul li a{
+        color: white;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:386px){
+
+    .paras2{
+        width: 100% !important;
+        font-size: 11px !important;
+    }
+
+    .green_boll{
+        font-size: 15px;
+    }
+
+    .boll1{
+        font-size: 25px;
+    }
+
+    .map_title a{
+        color: rgb(61, 61, 61);
+        font-size: 17px;
+        margin-right: 5px;
+    }
+
+    .send{
+        right: 140px;
+    }
+
+    .collapse_links a{
+        margin-right: 10px;
+        font-size: 17px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 20%;
+        width: 59%;
+        top: 30%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 87%;
+        left:6.5%;
+        font-size: 16px;
+        top: 13%;
+    }
+
+    .block1_title h1{
+        font-size: 24px;
+    }
+
+    .circle{
+        width: 580px;
+        height: 580px;
+        right: 1%;
+        top: 0%;
+    }
+
+    .content h1 a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 32px;
+        font-weight: 400;
+        margin-left: 20px;
+        transition: 0.4s;
+    }
+}
+
+@media screen and (max-width:372px){
+
+    .green_boll{
+        font-size: 14px;
+    }
+
+    .boll1{
+        font-size: 25px;
+    }
+
+    .timetable1::before{
+        display: none;
+    }
+
+    .timetable1::after{
+        display: none;
+    }
+
+    .bot_two{
+        width: 300px;
+    }
+
+    .android_block{
+        margin-top: 40px;
+        width: 100%;
+        height: 75%;
+        background: url('../img/android_bot.jpg') center / cover;
+    }
+    
+    .bordering{
+        border-left: 1px solid rgb(24, 180, 24);
+        position: relative;
+        height: 340px;
+    }
+
+    .block1_inner{
+        position: absolute;
+        top: 15%;
+        left: 3%;
+        width: 80%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .block1_inner p{
+        color: white;
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    .block1_inner h2{
+        color: white;
+        font-weight: 700;
+        font-size: 21px;
+    }
+
+    .map_title a{
+        color: rgb(61, 61, 61);
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    .send{
+        right: 135px;
+    }
+
+    .collapse_links a{
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 19%;
+        width: 62%;
+        top: 30%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 88%;
+        left: 6%;
+        font-size: 16px;
+        top: 13%;
+    }
+
+    .block1_title h1{
+        font-size: 23px;
+    }
+
+    .circle{
+        width: 580px;
+        height: 580px;
+        right: .4%;
+        top: 0%;
+    }
+
+    .content h1 a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 32px;
+        font-weight: 400;
+        margin-left: 20px;
+        transition: 0.4s;
+    }
+
+    .review{
+        height:1250px;
+    }
+
+    .about_container .about_inside{
+        height: 700px;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 83%;
+        left: 9%;
+        font-size: 17px;
+        top: 13%;
+    }
+    
+    .course_java_inside3 .java_text7{
+        width: 82%;
+        left: 9%;
+        font-size: 17px;
+        top: 13%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 17px;
+        top: 13%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 89%;
+        left: 5.5%;
+        font-size: 17px;
+        top: 13%;
+    }
+
+    .swiper{
+        height: 680px;
+    }
+
+    .swiper_image{
+        width: 70%;
+        height: 30%;
+    }
+
+    .card_image p{
+        margin-left: 15px;
+        padding-top: 30px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:362px){
+
+    .android_block{
+        margin-top: 40px;
+        width: 100%;
+        height: 70%;
+        background: url('../img/android_bot.jpg') center / cover;
+    }
+    
+    .bordering{
+        border-left: 1px solid rgb(24, 180, 24);
+        position: relative;
+        height: 340px;
+    }
+
+    .swiper_inner1 div h3{
+        color: rgb(59, 59, 59);
+        font-size: 13px;
+    }
+    
+    .swiper_inner1 div hr{
+        width: 40%;
+        margin: 20px auto;
+    }
+    
+    .swiper_inner1 div p{
+        font-weight: 400;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 11px;
+    }
+
+    .swiper_inner2 div hr{
+        width: 40%;
+        margin: 20px auto;
+    }
+
+    .swiper_inner2 div h3{
+        color: rgb(59, 59, 59);
+        font-size: 13px;
+    }
+    
+    .swiper_inner2 div p{
+        font-weight: 400;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 11px;
+    }
+
+    .circle{
+        width: 580px;
+        height: 580px;
+        right: -15%;
+        top: 0%;
+    }
+
+    .flex{
+        position: absolute;
+        top: 90px;
+        left: 10%;
+    }
+
+    .info{
+        position: absolute;
+        left: 80%;
+    }
+
+    .main_footer{
+        height: 1370px;
+    }
+
+    .send{
+        right: 127px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 18%;
+        width: 64%;
+        top: 30%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 87%;
+        left: 6.5%;
+        font-size: 15px;
+        top: 13%;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 85%;
+        left: 7.5%;
+        font-size: 16px;
+        top: 13%;
+    }
+    
+    .course_java_inside3 .java_text7{
+        width: 82%;
+        left: 9%;
+        font-size: 16px;
+        top: 13%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 16px;
+        top: 13%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 87%;
+        left: 6.5%;
+        font-size: 16px;
+        top: 13%;
+    }
+
+    .course_java_inside .java_text2{
+        width: 79%;
+        top: 13%;
+        left: 10%;
+        font-size: 16px;
+    }
+
+    .course_java_inside .java_text2_link{
+        left: 27%;
+    }
+
+    .course_java_inside1 .java_text3_link{
+        left: 27%;
+    }
+
+    .course_java_inside2 .java_text5_link{
+        left: 27%;
+    }
+
+    .course_java_inside3 .java_text7_link{
+        left: 27%;
+    }
+    
+    .course_java_inside4 .java_text9_link{
+        left: 27%;
+    }
+    
+    .course_java_inside5 .java_text11_link{
+        left: 27%;
+    }
+}
+
+@media screen and (max-width:352px){
+    
+    .green_boll{
+        font-size: 13px;
+    }
+
+    .review{
+        height:1300px;
+    }
+
+    .collapse_links a{
+        margin-right: 8px;
+        font-size: 16px;
+    }
+
+    .block1_title h1{
+        font-size: 22px;
+    }
+
+    .swiper{
+        height: 700px;
+    }
+
+    .map_title a{
+        color: rgb(61, 61, 61);
+        font-size: 15px;
+        margin-right: 5px;
+    }
+
+    .card_image p{
+        margin-left: 0px;
+        padding-top: 30px;
+        width: 40%;
+    }
+
+    .send{
+        right: 120px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 16%;
+        width: 67%;
+        top: 30%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 89%;
+        left: 5.5%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 85%;
+        left: 7.5%;
+        font-size: 15px;
+        top: 18%;
+    }
+    
+    .course_java_inside3 .java_text7{
+        width: 82%;
+        left: 9%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 85%;
+        left: 7.5%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .course_java_inside .java_text2{
+        width: 81%;
+        top: 9.5%;
+        left: 10%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .course_java_inside3 .java_text8{
+        font-size: 48px;
+    }
+
+    .block1_title p{
+        margin-bottom: 25px;
+        font-size: 13px;
+    }
+
+    .about_right p{
+        width: 100%;
+    }
+
+    .about_container .about_inside{
+        height: 670px;
+    }
+}
+
+@media screen and (max-width:342px){
+
+    .android_block{
+        margin-top: 40px;
+        width: 100%;
+        height: 65%;
+        background: url('../img/android_bot.jpg') center / cover;
+    }
+
+    .bot_two{
+        width: 270px;
+    }
+
+
+    .collapse_links a{
+        margin-right: 8px;
+        font-size: 15px;
+    }
+
+    .about_container .about_inside{
+        height: 690px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 15%;
+        width: 69%;
+        top: 30%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 88%;
+        left: 6%;
+        font-size: 14px;
+        top: 18%;
+    }
+
+    .course_java_inside1 .java_text3{
+        width: 85%;
+        left: 7.5%;
+        font-size: 15px;
+        top: 18%;
+    }
+    
+    .course_java_inside3 .java_text7{
+        width: 82%;
+        left: 9%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .course_java_inside4 .java_text9{
+        width: 80%;
+        left: 10%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 87%;
+        left: 6.5%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .course_java_inside .java_text2{
+        width: 81%;
+        top: 9.5%;
+        left: 10%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .send{
+        right: 115px;
+    }
+
+    .block1_title h1{
+        font-size: 21px;
+    }
+
+    .content h1 a{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:332px){
+
+    .course_java_inside .java_text1{
+        left: 14.5%;
+        width: 71%;
+        top: 30%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 89%;
+        left: 5.5%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .about_left a img{
+        width: 100%;
+        height: 230px;
+        border-radius: 10px;
+        transition: 3s;
+    }
+
+    .about_right{
+        top: 220px;
+    }
+
+    .about_container .about_inside{
+        height: 670px;
+    }
+
+    .swiper{
+        height: 730px;
+    }
+
+    .card_image img{
+        width: 60%;
+        height: 140px;
+    }
+
+    .map_title a{
+        color: rgb(61, 61, 61);
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .map1{
+        width: 100%;
+        height: 290px;
+        border-radius: 5px;
+        border: none;
+        overflow: hidden;
+    }
+
+    .map{
+        overflow: hidden;
+        padding: 0px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width:328px){
+
+    .block1_title h1{
+        font-size: 20px;
+    }
+
+    .course_java_inside .java_text1{
+        left: 14%;
+        width: 72%;
+        top: 30%;
+    }
+
+    .course_java_inside .java_text2{
+        width: 82%;
+        top: 9%;
+        left: 10%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 90%;
+        left: 5%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .collapse_links a{
+        margin-right: 5px;
+        font-size: 15px;
+    }
+
+    .footer_container1 div ul li a{
+        color: white;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:320px){
+
+    .course_java_inside .java_text1{
+        left: 13%;
+        width: 74%;
+        top: 30%;
+    }
+
+    .course_java_inside .java_text2{
+        width: 84%;
+        top: 9%;
+        left: 8%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .course_java_inside2 .java_text5{
+        width: 91%;
+        left:4.5%;
+        font-size: 14px;
+        top: 18%;
+    }
+
+    .course_java_inside3 .java_text7{
+        width: 83%;
+        left: 8%;
+        font-size: 15px;
+        top: 18%;
+    }
+
+    .course_java_inside5 .java_text11{
+        width: 90%;
+        left: 5%;
+        font-size: 14px;
+        top: 18%;
+    }
+
+    .course_java_inside .java_text2_link{
+        left: 24%;
+    }
+
+    .course_java_inside1 .java_text3_link{
+        left: 24%;
+    }
+
+    .course_java_inside2 .java_text5_link{
+        left: 24%;
+    }
+
+    .course_java_inside3 .java_text7_link{
+        left: 24%;
+    }
+    
+    .course_java_inside4 .java_text9_link{
+        left: 24%;
+    }
+    
+    .course_java_inside5 .java_text11_link{
+        left: 24%;
+    }
+
+    .swiper{
+        height: 760px;
+    }
+
+    .send{
+        right: 110px;
+    }
 }

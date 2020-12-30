@@ -823,7 +823,6 @@ main{
 
 .about_container{
     width: 100%;
-    overflow: hidden;
 }
 
 .about_inside{
