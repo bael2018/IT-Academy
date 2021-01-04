@@ -278,6 +278,7 @@ main{
 .main_course{
     width: 100%;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 
 .course_child{
@@ -823,6 +824,7 @@ main{
 
 .about_container{
     width: 100%;
+    overflow: hidden;
 }
 
 .about_inside{
